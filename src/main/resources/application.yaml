@@ -1,0 +1,15 @@
+server:
+  port: 1205
+
+spring:
+  application:
+    name: tech-trekker
+
+  datasource:
+    url: "jdbc:mysql://localhost/tech_blog"
+    password: "Rashmi@165"
+    username: "root"
+
+  jpa:
+    hibernate:
+      ddl-auto: update

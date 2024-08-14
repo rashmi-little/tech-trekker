@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head data-th-fragment="head">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tech trkker</title>
+  </head>
+  <body>
+    <header data-th-fragment="header(val, url)">
+      <h1>Tech Trekker</h1>
+      <div class="links">
+        <a data-th-href="${url}" data-th-text="${val}"></a>
+        <a href="/sign-up">Sign up</a>
+      </div>
+    </header>
+
+    <nav data-th-fragment="nav">
+      <a href="#">Home</a>
+      <a href="#">Frontend</a>
+      <a href="#">Backend</a>
+      <a href="#">Database</a>
+    </nav>
+  </body>
+</html>
